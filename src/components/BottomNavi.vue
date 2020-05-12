@@ -2,19 +2,19 @@
   <v-bottom-navigation
     v-model="bottomNav"
   >
-    <v-btn value="recent">
-      <span>Recent</span>
-      <v-icon>mdi-history</v-icon>
-    </v-btn>
-
-    <v-btn value="favorites">
-      <span>Favorites</span>
-      <v-icon>mdi-heart</v-icon>
-    </v-btn>
-
-    <v-btn value="nearby">
-      <span>Nearby</span>
+    <v-btn value="주변">
+      <span>주변</span>
       <v-icon>mdi-map-marker</v-icon>
+    </v-btn>
+
+    <v-btn value="채팅">
+      <span>채팅</span>
+      <v-icon>mdi-chat</v-icon>
+    </v-btn>
+
+    <v-btn value="나의">
+      <span>나의</span>
+      <v-icon>mdi-account</v-icon>
     </v-btn>
   </v-bottom-navigation>
 </template>

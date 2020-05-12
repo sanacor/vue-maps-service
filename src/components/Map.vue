@@ -6,7 +6,7 @@
       :mapTypeId="mapTypeId"
       :libraries="libraries"
       @load="onLoad"
-      style="width:500px;height:400px;"/>
+      style="width:400px;height:580px;"/>
 </template>
 
 <script>

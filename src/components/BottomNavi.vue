@@ -1,5 +1,7 @@
 <template>
   <v-bottom-navigation
+    :fixed='true'
+    :grow='true'
     v-model="bottomNav"
   >
     <v-btn value="주변">

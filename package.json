@@ -13,6 +13,7 @@
     "sass-loader": "^8.0.2",
     "vue": "^2.6.11",
     "vue-daum-map": "^1.0.15",
+    "vue-router": "^3.1.6",
     "vuetify": "^2.2.27"
   },
   "devDependencies": {
@@ -40,7 +41,6 @@
     "globals": {
       "kakao": false
     }
-
   },
   "browserslist": [
     "> 1%",

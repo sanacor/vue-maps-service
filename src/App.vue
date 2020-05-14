@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <Map></Map>
+    <router-view></router-view>
     <BottomNavi></BottomNavi>
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Map from "./components/Map.vue";
+// import Map from "./components/Map.vue";
 import BottomNavi from './components/BottomNavi.vue'
 
 export default {
@@ -15,7 +15,7 @@ export default {
 
   components: {
     // HelloWorld,
-    Map,
+    // Map,
     BottomNavi
   },
   data: () => ({

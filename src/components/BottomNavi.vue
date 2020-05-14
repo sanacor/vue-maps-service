@@ -4,7 +4,7 @@
     :grow='true'
     v-model="bottomNav"
   >
-    <v-btn value="주변">
+    <v-btn to="/map" value="주변">
       <span>주변</span>
       <v-icon>mdi-map-marker</v-icon>
     </v-btn>
@@ -14,7 +14,7 @@
       <v-icon>mdi-chat</v-icon>
     </v-btn>
 
-    <v-btn value="나의">
+    <v-btn to="/account" value="나의">
       <span>나의</span>
       <v-icon>mdi-account</v-icon>
     </v-btn>

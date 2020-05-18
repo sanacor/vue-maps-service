@@ -19,6 +19,10 @@ export default {
       level: 4 //지도의 레벨(확대, 축소 정도)
     };
     new kakao.maps.Map(container, mapOptions);
+    axios.get('https://z6zh3ycr0d.execute-api.ap-northeast-2.amazonaws.com/dev/endpoint')
+      .then(function (response) {
+        console.log(response.data);
+      })
   }
 };
 </script>

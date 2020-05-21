@@ -8,7 +8,7 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import Map from "./components/Map.vue";
-import BottomNavi from './components/BottomNavi.vue'
+import BottomNavi from "./components/BottomNavi.vue";
 
 export default {
   name: "App",
@@ -24,6 +24,4 @@ export default {
 };
 </script>
 
-<style>
-
-</style>
+<style></style>

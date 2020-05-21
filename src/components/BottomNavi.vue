@@ -9,7 +9,7 @@
       <v-icon>mdi-map-marker</v-icon>
     </v-btn>
 
-    <v-btn value="채팅">
+    <v-btn to="/wineshop" value="채팅">
       <span>채팅</span>
       <v-icon>mdi-chat</v-icon>
     </v-btn>

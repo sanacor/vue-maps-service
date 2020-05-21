@@ -4,16 +4,19 @@
     <div id="dmap">
       <div id="map" style="width:100%; height:800px;"></div>
     </div>
+    <SwipeableBottomSheet></SwipeableBottomSheet>
   </v-card>
 </template>
 
 <script>
 import AutoComplete from './AutoComplete.vue'
+import SwipeableBottomSheet from './SwipeableBottomSheet.vue'
 
 export default {
   name: "Map",
   components: {
-    AutoComplete
+    AutoComplete,
+    SwipeableBottomSheet
   },
   data() {
     return {

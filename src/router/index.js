@@ -7,6 +7,7 @@ import WineShop from "../components/WineShop.vue"
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       name: "account",

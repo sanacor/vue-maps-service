@@ -38,9 +38,15 @@ export default {
     var container = document.getElementById("map");
 
     // axios.get('https://z6zh3ycr0d.execute-api.ap-northeast-2.amazonaws.com/dev/endpoint')
+
+    let config = {
+      headers: {
+        'wine-shop': 'wine-shop'
+      }
+    }
     axios
       .get(
-        "https://z6zh3ycr0d.execute-api.ap-northeast-2.amazonaws.com/dev/endpoint"
+        "https://z6zh3ycr0d.execute-api.ap-northeast-2.amazonaws.com/dev/endpoint", config
       )
       .then(function(response) {
         console.log(response);

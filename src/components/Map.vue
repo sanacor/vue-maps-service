@@ -39,15 +39,9 @@ export default {
 
     // axios.get('https://z6zh3ycr0d.execute-api.ap-northeast-2.amazonaws.com/dev/endpoint')
 
-    let config = {
-      headers: {
-        'wine-shop': 'wine-shop'
-      }
-    }
     axios
       .get(
-        "https://z6zh3ycr0d.execute-api.ap-northeast-2.amazonaws.com/dev/endpoint", config
-      )
+        "https://z6zh3ycr0d.execute-api.ap-northeast-2.amazonaws.com/dev/wineshop")
       .then(function(response) {
         console.log(response);
         self.wine_shop_location_data = response.data;

@@ -6,4 +6,5 @@ Vue.use(Vuetify)
 
 const opts = {}
 
+document.body.setAttribute('data-app', true)
 export default new Vuetify(opts)
